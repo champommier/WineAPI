@@ -1,0 +1,26 @@
+{
+  "name": "wineapi",
+  "version": "1.0.0",
+  "description": "Wine collection API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WineAPI"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Wine"
+  ],
+  "author": "E. Champommier",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "node-restful": "^0.2.5"
+  }
+}
