@@ -14,12 +14,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Check header
-app.use(function (req, res, next) {
+app.use(function (req, res) {
     if(req.get('X-Mashape-Proxy-Secret') != MASHAPE_SECRET)
     {
         res.status(403);
     }
-    next();
 });
 
 // Routes
