@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(function (req, res, next) {
     if(req.get('X-Mashape-Proxy-Secret') != MASHAPE_SECRET)
     {
-        res.status(403).send('unauthorized API call');
+        res.status(403);
     }
     next();
 });
