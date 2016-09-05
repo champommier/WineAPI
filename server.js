@@ -1,5 +1,5 @@
 var SERVER_PORT = 1971;
-
+var MASHAPE_SECRET = 'JAlLZJD3uPBGjoBJmVhq5zzTiSY9LGbDfc3KxOKrcIpWitBMBk';
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
@@ -12,6 +12,14 @@ mongoose.connect('mongodb://localhost/rest_test');
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+// Check header
+app.use(function (req, res) {
+    if(req.get('X-Mashape-Proxy-Secret'))
+    {
+        res.status(403).send('unauthorized API call');
+    }
+});
 
 // Routes
 app.use('/api', require('./routes/api'));
