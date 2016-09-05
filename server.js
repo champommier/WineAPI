@@ -15,13 +15,15 @@ app.use(bodyParser.json());
 
 // Check header
 app.use(function (req, res, next) {
-    console.log(req.get('X-Mashape-Proxy-Secret'));
     if(req.get('X-Mashape-Proxy-Secret') != MASHAPE_SECRET)
     {
-        next(new Error("Permission denied"));
+        res.status(403).send('Permission denied');
         return;
     }
-    next();
+    else
+    {
+        next();
+    }
 });
 
 // Routes
