@@ -7,7 +7,7 @@ var wineSchema = new mongoose.Schema({
     name: String,
     area: String,
     subarea: String,
-    color: String
+    type: String
 });
 
 // Return model
