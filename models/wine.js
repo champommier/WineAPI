@@ -4,9 +4,10 @@ var mongoose = restful.mongoose;
 
 // Schema
 var wineSchema = new mongoose.Schema({
-    name: String,
+    country: String,
     area: String,
     subarea: String,
+    name: String,
     color: String
 });
 
