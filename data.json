@@ -1,544 +1,544 @@
-{ "name":"Alsace", "area":"Alsace grand cru", "color":"White"}
-{ "name":"Alsace", "area":"Vin d'Alsace", "color":"Red"}
-{ "name":"Alsace", "area":"Alsace", "color":"Red"}
-{ "name":"Alsace", "area":"Alsace ou vin d'Alsace", "color":"Pink"}
-{ "name":"Alsace", "area":"Alsace ou vin d'Alsace", "color":"White"}
-{ "name":"Alsace", "area":"Crémant d'Alsace", "color":"Pink"}
-{ "name":"Alsace", "area":"Crémant d'Alsace", "color":"White"}
-{ "name":"Beaujolais", "area":"Beaujolais", "color":"Red"}
-{ "name":"Beaujolais", "area":"Beaujolais", "color":"Pink"}
-{ "name":"Beaujolais", "area":"Beaujolais", "color":"White"}
-{ "name":"Beaujolais", "area":"Beaujolais-villages", "color":"Red"}
-{ "name":"Beaujolais", "area":"Beaujolais-villages", "color":"Pink"}
-{ "name":"Beaujolais", "area":"Beaujolais-villages", "color":"White"}
-{ "name":"Beaujolais", "area":"Brouilly", "color":"Red"}
-{ "name":"Beaujolais", "area":"Chénas", "color":"Red"}
-{ "name":"Beaujolais", "area":"Chiroubles", "color":"Red"}
-{ "name":"Beaujolais", "area":"Côte-de-brouilly", "color":"Red"}
-{ "name":"Beaujolais", "area":"Fleurie", "color":"Red"}
-{ "name":"Beaujolais", "area":"Juliénas", "color":"Red"}
-{ "name":"Beaujolais", "area":"Juliénas", "color":"White"}
-{ "name":"Beaujolais", "area":"Morgon", "color":"Red"}
-{ "name":"Beaujolais", "area":"Moulin-à-vent", "color":"Red"}
-{ "name":"Beaujolais", "area":"Régnié", "color":"Red"}
-{ "name":"Beaujolais", "area":"Saint-amour", "color":"Red"}
-{ "name":"Bordeaux", "area":"Barsac", "subarea":"Sauternais", "color":"White"}
-{ "name":"Bordeaux", "area":"Blaye", "subarea":"Blayais et Bourgeais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bordeaux", "color":"Clairet"}
-{ "name":"Bordeaux", "area":"Bordeaux", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bordeaux", "color":"Pink"}
-{ "name":"Bordeaux", "area":"Bordeaux", "color":"White"}
-{ "name":"Bordeaux", "area":"Bordeaux supérieur", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bordeaux supérieur", "color":"White"}
-{ "name":"Bordeaux", "area":"Cadillac", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Canon-fronsac", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Cérons", "subarea":"Graves", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-blaye", "subarea":"Blayais", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-blaye", "subarea":"Bourgeais", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-Bordeaux", "subarea":"Blayais", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-Bordeaux", "subarea":"Bourgeais", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-Bordeaux", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-Bordeaux", "subarea":"Libournais", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-Bordeaux-saint-macaire", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-bourg", "subarea":"Bourgeais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bourg", "subarea":"Bourgeais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bourgeais", "subarea":"Bourgeais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Côtes-de-bourg", "subarea":"Blayais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bourg", "subarea":"Blayais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Bourgeais", "subarea":"Blayais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Côtes-de-bourg", "subarea":"Bourgeais", "color":"White"}
-{ "name":"Bordeaux", "area":"Bourg", "subarea":"Bourgeais", "color":"White"}
-{ "name":"Bordeaux", "area":"Bourgeais", "subarea":"Bourgeais", "color":"White"}
-{ "name":"Bordeaux", "area":"Côtes-de-bourg", "subarea":"Blayais", "color":"White"}
-{ "name":"Bordeaux", "area":"Bourg", "subarea":"Blayais", "color":"White"}
-{ "name":"Bordeaux", "area":"Bourgeais", "subarea":"Blayais", "color":"White"}
-{ "name":"Bordeaux", "area":"Crémant de Bordeaux", "color":"Pink"}
-{ "name":"Bordeaux", "area":"Crémant de Bordeaux", "color":"White"}
-{ "name":"Bordeaux", "area":"Entre-deux-mers", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Fronsac", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Graves", "subarea":"Graves", "color":"Red"}
-{ "name":"Bordeaux", "area":"Graves", "subarea":"Graves", "color":"White"}
-{ "name":"Bordeaux", "area":"Graves-de-vayres", "color":"Red"}
-{ "name":"Bordeaux", "area":"Graves-de-vayres", "color":"White"}
-{ "name":"Bordeaux", "area":"Graves-supérieures", "subarea":"Graves", "color":"White"}
-{ "name":"Bordeaux", "area":"Haut-médoc", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Lalande-de-pomerol", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Listrac-médoc", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Loupiac", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Lussac-saint-émilion", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Margaux", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Médoc", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Montagne-saint-émilion", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Moulis", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Moulis-en-médoc", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Pauillac", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Pessac-léognan", "subarea":"Graves", "color":"Red"}
-{ "name":"Bordeaux", "area":"Pessac-léognan", "subarea":"Graves", "color":"White"}
-{ "name":"Bordeaux", "area":"Pomerol", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Premières-côtes-de-Bordeaux", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Puisseguin-saint-émilion", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Saint-émilion", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Saint-émilion grand cru", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Saint-estèphe", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Saint-georges-saint-émilion", "subarea":"Libournais", "color":"Red"}
-{ "name":"Bordeaux", "area":"Saint-julien", "subarea":"Médoc", "color":"Red"}
-{ "name":"Bordeaux", "area":"Sainte-croix-du-mont", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Sainte-foy-Bordeaux", "subarea":"Entre-deux-Mers", "color":"Red"}
-{ "name":"Bordeaux", "area":"Sainte-foy-Bordeaux", "subarea":"Entre-deux-Mers", "color":"White"}
-{ "name":"Bordeaux", "area":"Sauternes", "subarea":"Sauternais", "color":"White"}
-{ "name":"Bourgogne", "area":"Aloxe-corton", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Aloxe-corton", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Auxey-duresses", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Auxey-duresses", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Bâtard-montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Beaune", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Beaune", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Bienvenues-bâtard-montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Blagny", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Bonnes-mares", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Bourgogne", "color":"Red"}
-{ "name":"Bourgogne", "area":"Bourgogne", "color":"Pink"}
-{ "name":"Bourgogne", "area":"Bourgogne", "color":"White"}
-{ "name":"Bourgogne", "area":"Bourgogne aligoté", "color":"White"}
-{ "name":"Bourgogne", "area":"Bourgogne mousseux", "color":"Red"}
-{ "name":"Bourgogne", "area":"Bourgogne passe-tout-grains", "color":"Red"}
-{ "name":"Bourgogne", "area":"Bourgogne passe-tout-grains", "color":"Pink"}
-{ "name":"Bourgogne", "area":"Bouzeron", "subarea":"Côte chalonnaise", "color":"White"}
-{ "name":"Bourgogne", "area":"Chablis", "subarea":"Basse-Bourgogne", "color":"White"}
-{ "name":"Bourgogne", "area":"Chablis grand cru", "subarea":"Basse-Bourgogne", "color":"White"}
-{ "name":"Bourgogne", "area":"Chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Chambertin-clos-de-bèze", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Chambolle-musigny", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Chapelle-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Charlemagne", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Charmes-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Chassagne-montrachet", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Chassagne-montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Chevalier-montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Chorey-lès-beaune", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Chorey-lès-beaune", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Clos-de-la-roche", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Clos-de-tart", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Clos-vougeot", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Clos-de-vougeot", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Clos-des-lambrays", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Clos-saint-denis", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Corton", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Corton", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Corton-charlemagne", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Côte-de-beaune", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Côte-de-beaune", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Côte-de-beaune-villages", "subarea":"côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Côte-de-nuits-villages", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Côte-de-nuits-villages", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bourgogne", "area":"Coteaux-bourguignons", "color":"Red"}
-{ "name":"Bourgogne", "area":"Coteaux-bourguignons", "color":"Pink"}
-{ "name":"Bourgogne", "area":"Coteaux-bourguignons", "color":"White"}
-{ "name":"Bourgogne", "area":"Crémant de Bourgogne", "color":"Pink"}
-{ "name":"Bourgogne", "area":"Crémant de Bourgogne", "color":"White"}
-{ "name":"Bourgogne", "area":"Criots-bâtard-montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Echezeaux", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Fixin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Fixin", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bourgogne", "area":"Gevrey-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Givry", "subarea":"côte chalonnaise", "color":"Red"}
-{ "name":"Bourgogne", "area":"Givry", "subarea":"côte chalonnaise", "color":"White"}
-{ "name":"Bourgogne", "area":"Grands-échezeaux", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Griotte-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Irancy", "subarea":"Basse-Bourgogne", "color":"Red"}
-{ "name":"Bourgogne", "area":"La-grande-rue", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"La-romanée", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"La-tâche", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Ladoix", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Ladoix", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Latricières-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Mâcon", "subarea":"Mâconnais", "color":"Red"}
-{ "name":"Bourgogne", "area":"Mâcon", "subarea":"Mâconnais", "color":"Pink"}
-{ "name":"Bourgogne", "area":"Mâcon", "subarea":"Mâconnais", "color":"White"}
-{ "name":"Bourgogne", "area":"Maranges", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Maranges", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Marsannay", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Marsannay", "subarea":"Côte de Nuits", "color":"Pink"}
-{ "name":"Bourgogne", "area":"Marsannay", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bourgogne", "area":"Mazis-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Mazoyères-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Mercurey", "subarea":"Côte chalonnaise", "color":"Red"}
-{ "name":"Bourgogne", "area":"Mercurey", "subarea":"Côte chalonnaise", "color":"White"}
-{ "name":"Bourgogne", "area":"Meursault", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Meursault", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Montagny", "subarea":"Côte chalonnaise", "color":"White"}
-{ "name":"Bourgogne", "area":"Monthélie", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Monthélie", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Morey-saint-denis", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Morey-saint-denis", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bourgogne", "area":"Musigny", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Musigny", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bourgogne", "area":"Nuits-saint-georges", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Nuits-saint-georges", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bourgogne", "area":"Pernand-vergelesses", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Pernand-vergelesses", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Petit-chablis", "subarea":"Basse-Bourgogne", "color":"White"}
-{ "name":"Bourgogne", "area":"Pommard", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Pouilly-fuissé", "subarea":"Mâconnais", "color":"White"}
-{ "name":"Bourgogne", "area":"Pouilly-loché", "subarea":"Mâconnais", "color":"White"}
-{ "name":"Bourgogne", "area":"Pouilly-vinzelles", "subarea":"Mâconnais", "color":"White"}
-{ "name":"Bourgogne", "area":"Puligny-montrachet", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Puligny-montrachet", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Richebourg", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Romanée-conti", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Romanée-saint-vivant", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Ruchottes-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Rully", "subarea":"Côte chalonnaise", "color":"Red"}
-{ "name":"Bourgogne", "area":"Rully", "subarea":"Côte chalonnaise", "color":"White"}
-{ "name":"Bourgogne", "area":"Saint-aubin", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Saint-aubin", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Saint-bris", "subarea":"Basse-Bourgogne", "color":"White"}
-{ "name":"Bourgogne", "area":"Saint-romain", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Saint-romain", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Saint-véran", "subarea":"Mâconnais", "color":"White"}
-{ "name":"Bourgogne", "area":"Santenay", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Santenay", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Savigny-lès-beaune", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Savigny-lès-beaune", "subarea":"Côte de Beaune", "color":"White"}
-{ "name":"Bourgogne", "area":"Viré-clessé", "subarea":"Mâconnais", "color":"White"}
-{ "name":"Bourgogne", "area":"Volnay", "subarea":"Côte de Beaune", "color":"Red"}
-{ "name":"Bourgogne", "area":"Vosne-romanée", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Vougeot", "subarea":"Côte de Nuits", "color":"Red"}
-{ "name":"Bourgogne", "area":"Vougeot", "subarea":"Côte de Nuits", "color":"White"}
-{ "name":"Bugey", "area":"Bugey", "color":"Pink"}
-{ "name":"Bugey", "area":"Bugey", "color":"White"}
-{ "name":"Bugey", "area":"Roussette du Bugey", "color":"White"}
-{ "name":"Champagne", "area":"Champagne", "color":"Pink"}
-{ "name":"Champagne", "area":"Champagne", "color":"White"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Côte des Bar", "color":"Red"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Côte des Bar", "color":"Pink"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Côte des Bar", "color":"White"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Côte des Blancs", "color":"Red"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Côte des Blancs", "color":"Pink"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Côte des Blancs", "color":"White"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Montagne de Reims", "color":"Red"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Montagne de Reims", "color":"Pink"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Montagne de Reims", "color":"White"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Vallée de la Marne", "color":"Red"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Vallée de la Marne", "color":"Pink"}
-{ "name":"Champagne", "area":"Coteaux-champenois", "subarea":"Vallée de la Marne", "color":"White"}
-{ "name":"Champagne", "area":"Rosé des Riceys", "subarea":"Côte des Bars", "color":"Pink"}
-{ "name":"Corse", "area":"Ajaccio", "color":"Red"}
-{ "name":"Corse", "area":"Ajaccio", "color":"Pink"}
-{ "name":"Corse", "area":"Ajaccio", "color":"White"}
-{ "name":"Corse", "area":"Corse ou vin de Corse", "color":"Red"}
-{ "name":"Corse", "area":"Corse ou vin de Corse", "color":"Pink"}
-{ "name":"Corse", "area":"Corse ou vin de Corse", "color":"White"}
-{ "name":"Corse", "area":"Muscat du Cap-Corse", "color":"White"}
-{ "name":"Corse", "area":"Patrimonio", "color":"Red"}
-{ "name":"Corse", "area":"Patrimonio", "color":"White"}
-{ "name":"Jura", "area":"Arbois", "color":"Red"}
-{ "name":"Jura", "area":"Arbois", "color":"White"}
-{ "name":"Jura", "area":"Côtes-du-jura", "color":"Red"}
-{ "name":"Jura", "area":"Côtes-du-jura", "color":"Pink"}
-{ "name":"Jura", "area":"Côtes-du-jura", "color":"Straw"}
-{ "name":"Jura", "area":"Côtes-du-jura", "color":"White"}
-{ "name":"Jura", "area":"Côtes-du-jura", "color":"Yellow"}
-{ "name":"Jura", "area":"Crémant du Jura", "color":"White"}
-{ "name":"Jura", "area":"L'étoile", "color":"White"}
-{ "name":"Languedoc", "area":"Cabardès", "subarea":"Coteaux de l'Aude", "color":"Red"}
-{ "name":"Languedoc", "area":"Cabardès", "subarea":"Coteaux de l'Aude", "color":"Pink"}
-{ "name":"Languedoc", "area":"Clairette du Languedoc", "subarea":"Coteaux du Languedoc", "color":"White"}
-{ "name":"Languedoc", "area":"Corbières", "subarea":"Coteaux de l'Aude", "color":"Red"}
-{ "name":"Languedoc", "area":"Corbières", "subarea":"Coteaux de l'Aude", "color":"Pink"}
-{ "name":"Languedoc", "area":"Corbières", "subarea":"Coteaux de l'Aude", "color":"White"}
-{ "name":"Languedoc", "area":"Corbières-boutenac", "subarea":"Coteaux de l'Aude (Corbières)", "color":"Red"}
-{ "name":"Languedoc", "area":"Crémant de Limoux", "subarea":"Coteaux de l'Aude (Limouxin)", "color":"White"}
-{ "name":"Languedoc", "area":"Faugères", "subarea":"Coteaux du Languedoc", "color":"Red"}
-{ "name":"Languedoc", "area":"Faugères", "subarea":"Coteaux du Languedoc", "color":"Pink"}
-{ "name":"Languedoc", "area":"Faugères", "subarea":"Coteaux du Languedoc", "color":"White"}
-{ "name":"Languedoc", "area":"Fitou", "subarea":"Coteaux de l'Aude (Corbières)", "color":"Red"}
-{ "name":"Languedoc", "area":"Languedoc", "color":"Red"}
-{ "name":"Languedoc", "area":"Languedoc", "color":"Pink"}
-{ "name":"Languedoc", "area":"Languedoc", "color":"White"}
-{ "name":"Languedoc", "area":"Limoux", "subarea":"Coteaux de l'Aude", "color":"Red"}
-{ "name":"Languedoc", "area":"Limoux", "subarea":"Coteaux de l'Aude", "color":"White"}
-{ "name":"Languedoc", "area":"Malepère", "subarea":"Coteaux de l'Aude (Razès)", "color":"Red"}
-{ "name":"Languedoc", "area":"Malepère", "subarea":"Coteaux de l'Aude (Razès)", "color":"Pink"}
-{ "name":"Languedoc", "area":"Minervois", "subarea":"Coteaux de l'Aude", "color":"Red"}
-{ "name":"Languedoc", "area":"Minervois", "subarea":"Coteaux de l'Aude", "color":"Pink"}
-{ "name":"Languedoc", "area":"Minervois", "subarea":"Coteaux de l'Aude", "color":"White"}
-{ "name":"Languedoc", "area":"Minervois-la-livinière", "subarea":"Petit Causse", "color":"Red"}
-{ "name":"Languedoc", "area":"Muscat de Frontignan", "subarea":"Plaine du Languedoc", "color":"White"}
-{ "name":"Languedoc", "area":"Vin de Frontignan", "subarea":"Plaine du Languedoc", "color":"White"}
-{ "name":"Languedoc", "area":"Muscat de Lunel", "color":"White"}
-{ "name":"Languedoc", "area":"Muscat de Mireval", "subarea":"Plaine du Languedoc", "color":"White"}
-{ "name":"Languedoc", "area":"Muscat de Saint-Jean-de-Minervois", "subarea":"Minervois", "color":"White"}
-{ "name":"Languedoc", "area":"Saint-chinian", "color":"Red"}
-{ "name":"Languedoc", "area":"Saint-chinian", "color":"Pink"}
-{ "name":"Languedoc", "area":"Saint-chinian", "color":"White"}
-{ "name":"Languedoc-Roussillon", "area":"Banyuls", "subarea":"Roussillon", "color":"Pink"}
-{ "name":"Languedoc-Roussillon", "area":"Banyuls grand cru", "subarea":"Roussillon", "color":"Red"}
-{ "name":"Lorraine", "area":"Côtes-de-toul", "subarea":"Côtes de Meuse", "color":"Red"}
-{ "name":"Lorraine", "area":"Côtes-de-toul", "subarea":"Côtes de Meuse", "color":"White"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Pays messin", "color":"Red"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Pays messin", "color":"Pink"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Pays messin", "color":"White"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Val de Seille", "color":"Red"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Val de Sierck", "color":""}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Val de Seille", "color":"Pink"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Val de Sierck", "color":"Pink"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Val de Seille", "color":"White"}
-{ "name":"Lorraine", "area":"Moselle", "subarea":"Val de Sierck", "color":"White"}
-{ "name":"Lyonnais", "area":"Coteaux-du-lyonnais", "color":"Red"}
-{ "name":"Lyonnais", "area":"Coteaux-du-lyonnais", "color":"Pink"}
-{ "name":"Lyonnais", "area":"Coteaux-du-lyonnais", "color":"White"}
-{ "name":"Provence", "area":"Bandol", "color":"Red"}
-{ "name":"Provence", "area":"Bandol", "color":"Pink"}
-{ "name":"Provence", "area":"Bandol", "color":"White"}
-{ "name":"Provence", "area":"Vin de Bellet", "color":"Red"}
-{ "name":"Provence", "area":"Vin de Bellet", "color":"Pink"}
-{ "name":"Provence", "area":"Vin de Bellet", "color":"White"}
-{ "name":"Provence", "area":"Bellet", "color":"Red"}
-{ "name":"Provence", "area":"Bellet", "color":"Pink"}
-{ "name":"Provence", "area":"Bellet", "color":"White"}
-{ "name":"Provence", "area":"Cassis", "color":"Red"}
-{ "name":"Provence", "area":"Cassis", "color":"Pink"}
-{ "name":"Provence", "area":"Cassis", "color":"White"}
-{ "name":"Provence", "area":"Coteaux-d'aix-en-provence", "color":"Red"}
-{ "name":"Provence", "area":"Coteaux-d'aix-en-provence", "color":"Pink"}
-{ "name":"Provence", "area":"Coteaux-d'aix-en-provence", "color":"White"}
-{ "name":"Provence", "area":"Coteaux-varois-en-provence", "color":"White"}
-{ "name":"Provence", "area":"Côtes-de-provence", "color":"Red"}
-{ "name":"Provence", "area":"Côtes-de-provence", "color":"Pink"}
-{ "name":"Provence", "area":"Côtes-de-provence", "color":"White"}
-{ "name":"Provence", "area":"Les-baux-de-provence", "color":"Red"}
-{ "name":"Provence", "area":"Les-baux-de-provence", "color":"Pink"}
-{ "name":"Provence", "area":"Palette", "color":"Red"}
-{ "name":"Provence", "area":"Palette", "color":"Pink"}
-{ "name":"Provence", "area":"Palette", "color":"White"}
-{ "name":"Provence", "area":"Pierrevert", "subarea":"Moyenne vallée de la Durance", "color":"Red"}
-{ "name":"Provence", "area":"Pierrevert", "subarea":"Moyenne vallée de la Durance", "color":"Pink"}
-{ "name":"Provence", "area":"Pierrevert", "subarea":"Moyenne vallée de la Durance", "color":"White"}
-{ "name":"Roussillon", "area":"Collioure", "subarea":"Côte Vermeille", "color":"Red"}
-{ "name":"Roussillon", "area":"Collioure", "subarea":"Côte Vermeille", "color":"Pink"}
-{ "name":"Roussillon", "area":"Collioure", "subarea":"Côte Vermeille", "color":"White"}
-{ "name":"Roussillon", "area":"Côtes-du-roussillon", "color":"Red"}
-{ "name":"Roussillon", "area":"Côtes-du-roussillon", "color":"Pink"}
-{ "name":"Roussillon", "area":"Côtes-du-roussillon", "color":"White"}
-{ "name":"Roussillon", "area":"Côtes-du-roussillon villages", "color":"Red"}
-{ "name":"Roussillon", "area":"Maury", "subarea":"Fenouillèdes", "color":"Red"}
-{ "name":"Roussillon", "area":"Maury", "subarea":"Fenouillèdes", "color":"White"}
-{ "name":"Roussillon", "area":"Muscat de Rivesaltes", "subarea":"Aspres et Ribéral", "color":"White"}
-{ "name":"Roussillon", "area":"Muscat de Rivesaltes", "subarea":"Bas-Conflent", "color":"White"}
-{ "name":"Roussillon", "area":"Muscat de Rivesaltes", "subarea":"Fenouillèdes", "color":"White"}
-{ "name":"Roussillon", "area":"Muscat de Rivesaltes", "subarea":"Plaine du Roussillon", "color":"White"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Aspres et Ribéral", "color":"Red"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Aspres et Ribéral", "color":"White"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Bas-Conflent", "color":"Red"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Bas-Conflent", "color":"White"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Fenouillèdes", "color":"Red"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Fenouillèdes", "color":"White"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Plaine du Roussillon", "color":"Red"}
-{ "name":"Roussillon", "area":"Rivesaltes", "subarea":"Plaine du Roussillon", "color":"White"}
-{ "name":"Savoie", "area":"Roussette de Savoie", "color":"White"}
-{ "name":"Savoie", "area":"Savoie", "color":"Red"}
-{ "name":"Savoie", "area":"Savoie", "color":"Pink"}
-{ "name":"Savoie", "area":"Savoie", "color":"White"}
-{ "name":"Savoie", "area":"Vin de Savoie", "color":"Red"}
-{ "name":"Savoie", "area":"Vin de Savoie", "color":"Pink"}
-{ "name":"Savoie", "area":"Vin de Savoie", "color":"White"}
-{ "name":"Savoie et Bugey", "area":"Seyssel", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Béarn", "subarea":"Piémont pyrénéen", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Béarn", "subarea":"Piémont pyrénéen", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Béarn", "subarea":"Piémont pyrénéen", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Bergerac", "subarea":"Bergeracois", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Bergerac", "subarea":"Bergeracois", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Bergerac", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Buzet", "subarea":"Moyenne Garonne", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Cahors", "subarea":"Piémont du Massif central (Quercy)", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Côtes-de-bergerac", "subarea":"Bergeracois", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Côtes-de-bergerac", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Côtes-de-duras", "subarea":"Moyenne Garonne", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Côtes-de-duras", "subarea":"Moyenne Garonne", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Côtes-de-duras", "subarea":"Moyenne Garonne", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Côtes-de-montravel", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Côtes-du-marmandais", "subarea":"Moyenne Garonne", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Côtes-du-marmandais", "subarea":"Moyenne Garonne", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Côtes-du-marmandais", "subarea":"Moyenne Garonne", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Fronton", "subarea":"Moyenne Garonne", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Fronton", "subarea":"Moyenne Garonne", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Gaillac", "subarea":"Piémont du Massif central", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Gaillac", "subarea":"Piémont du Massif central", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Gaillac", "subarea":"Piémont du Massif central", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Gaillac-premières-côtes", "subarea":"Piémont du Massif central", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Haut-montravel", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Irouléguy", "subarea":"Pays basque", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Irouléguy", "subarea":"Pays basque", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Irouléguy", "subarea":"Pays basque", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Jurançon", "subarea":"Piémont pyrénéen", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Madiran", "subarea":"Piémont pyrénéen (Armagnac)", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Marcillac", "subarea":"Massif central méridional", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Marcillac", "subarea":"Massif central méridional", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Monbazillac", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Montravel", "subarea":"Bergeracois", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Montravel", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Pacherenc-du-vic-bilh", "subarea":"Piémont pyrénéen (Armagnac)", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Pacherenc-du-vic-bilh", "subarea":"Piémont pyrénéen (Armagnac)", "color":"Pink"}
-{ "name":"Sud-Ouest", "area":"Pacherenc-du-vic-bilh", "subarea":"Piémont pyrénéen (Armagnac)", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Pécharmant", "subarea":"Bergeracois", "color":"Red"}
-{ "name":"Sud-Ouest", "area":"Rosette", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Sud-Ouest", "area":"Saussignac", "subarea":"Bergeracois", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Anjou", "subarea":"Anjou", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Anjou", "subarea":"Anjou", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Anjou", "subarea":"Anjou", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Anjou villages", "subarea":"Anjou", "color":"Red"}
-{ "name":"Vallée de la Loire", "area":"Anjou villages brissac", "subarea":"Anjou", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Anjou-coteaux-de-la-loire", "subarea":"Anjou", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Bonnezeaux", "subarea":"Anjou", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Boudes", "subarea":"Côtes d'auvergne", "color":"Red"}
-{ "name":"Vallée de la Loire", "area":"Bourgueil", "subarea":"Touraine", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Bourgueil", "subarea":"Touraine", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Cabernet d'Anjou", "color":"Pink"}
-{ "name":"Vallée de la Loire", "area":"Cabernet de Saumur", "color":"Red"}
-{ "name":"Vallée de la Loire", "area":"Chanturgue", "subarea":"Côtes d'auvergne", "color":"Red"}
-{ "name":"Vallée de la Loire", "area":"Châteaugay", "subarea":"Côtes d'auvergne", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Châteaugay", "subarea":"Côtes d'auvergne", "color":"Pink"}
-{ "name":"Vallée de la Loire", "area":"Châteaumeillant", "color":"Red"}
-{ "name":"Vallée de la Loire", "area":"Cheverny", "subarea":"Touraine", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Cheverny", "subarea":"Touraine", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Cheverny", "subarea":"Touraine", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Chinon", "subarea":"Touraine", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Chinon", "subarea":"Touraine", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Chinon", "subarea":"Touraine", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Corent", "subarea":"Côtes d'auvergne", "color":"Pink"}
-{ "name":"Vallée de la Loire", "area":"Côte-roannaise", "subarea":"Roannais", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Côte-roannaise", "subarea":"Roannais", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Coteaux-de-l'aubance", "subarea":"Anjou", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Coteaux-de-saumur", "subarea":"Anjou (Saumurois)", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Coteaux-du-giennois", "subarea":"Centre", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Coteaux-du-giennois", "subarea":"Centre", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Coteaux-du-giennois", "subarea":"Centre", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Coteaux-du-layon", "subarea":"Anjou", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Coteaux-du-loir", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Coteaux-du-loir", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Coteaux-du-loir", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Coteaux-du-vendômois", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Coteaux-du-vendômois", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Côtes-du-forez", "subarea":"Forez", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Côtes-du-forez", "subarea":"Forez", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Cour-cheverny", "subarea":"Touraine", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Crémant de Loire", "subarea":"Anjou", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Crémant de Loire", "subarea":"Anjou", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Crémant de Loire", "subarea":"Touraine", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Crémant de Loire", "subarea":"Touraine", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Fiefs-vendéens", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Fiefs-vendéens", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Fiefs-vendéens", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Haut-poitou", "subarea":"Poitou", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Haut-poitou", "subarea":"Poitou", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Haut-poitou", "subarea":"Poitou", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Jasnières", "subarea":"Touraine", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Madargue", "subarea":"Côtes d'auvergne", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Madargue", "subarea":"Côtes d'auvergne", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Madargue", "subarea":"Côtes d'auvergne", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Menetou-salon", "subarea":"Berry", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Menetou-salon", "subarea":"Berry", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Menetou-salon", "subarea":"Berry", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Montlouis-sur-loire", "subarea":"Touraine", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Muscadet", "subarea":"Vignoble nantais", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Muscadet-coteaux-de-la-loire", "subarea":"Vignoble nantais", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Muscadet-côtes-de-grandlieu", "subarea":"Vignoble nantais", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Muscadet-sèvre-et-maine", "subarea":"Vignoble nantais", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Orléans", "subarea":"Orléanais", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Orléans", "subarea":"Orléanais", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Orléans", "subarea":"Orléanais", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Orléans-cléry", "subarea":"Orléanais", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Pouilly-fumé", "subarea":"Nivernais", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Blanc-fumé de Pouilly", "subarea":"Nivernais", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Pouilly-sur-loire", "subarea":"Nivernais", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Quarts-de-chaume", "subarea":"Anjou", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Quincy", "subarea":"Berry", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Reuilly", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Reuilly", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Reuilly", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Rosé d'Anjou", "subarea":"Anjou", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Rosé de Loire", "subarea":"Anjou", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Rosé de Loire", "subarea":"Touraine", "color":"Pink"}
-{ "name":"Vallée de la Loire", "area":"Saint-nicolas-de-bourgueil", "subarea":"Touraine", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Saint-nicolas-de-bourgueil", "subarea":"Touraine", "color":"Pink"}
-{ "name":"Vallée de la Loire", "area":"Saint-pourçain", "subarea":"Bourbonnais", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Saint-pourçain", "subarea":"Bourbonnais", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Saint-pourçain", "subarea":"Bourbonnais", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Sancerre", "subarea":"Berry", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Sancerre", "subarea":"Berry", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Sancerre", "subarea":"Berry", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Saumur", "subarea":"Anjou", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Saumur-champigny", "subarea":"Anjou", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Savennières", "subarea":"Anjou", "color":"White"}
-{ "name":"Vallée de la Loire", "area":"Touraine", "subarea":"Touraine", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Touraine", "subarea":"Touraine", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Touraine", "subarea":"Touraine", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Touraine-noble-joué", "subarea":"Touraine", "color":"Pink"}
-{ "name":"Vallée de la Loire", "area":"Valençay", "color":"Red"}
-{ "name":"vallée de la Loire", "area":"Valençay", "color":"Pink"}
-{ "name":"vallée de la Loire", "area":"Valençay", "color":"White"}
-{ "name":"vallée de la Loire", "area":"Vouvray", "subarea":"Touraine", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Beaumes-de-venise", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Château-grillet", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Châteauneuf-du-pape", "subarea":"Rhône méridional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Châtillon-en-diois", "subarea":"Diois (vallée de la Drôme)", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Châtillon-en-diois", "subarea":"Diois (vallée de la Drôme)", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Châtillon-en-diois", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Clairette de Bellegarde", "subarea":"Gard", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Clairette de Die", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Condrieu", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Cornas", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Costières-de-nîmes", "subarea":"Gard", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Costières-de-nîmes", "subarea":"Gard", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Costières-de-nîmes", "subarea":"Gard", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Côte-rôtie", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Coteaux-de-die", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône", "subarea":"Rhône méridional", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône", "subarea":"Rhône méridional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône", "subarea":"Rhône septentrional", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône villages", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône villages", "subarea":"Rhône méridional", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-rhône villages", "subarea":"Rhône méridional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-vivarais", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-vivarais", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Côtes-du-vivarais", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Crémant de Die", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Crozes-hermitage", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Crozes-ermitage", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Crozes-hermitage", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Crozes-ermitage", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Gigondas", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Gigondas", "subarea":"Rhône méridional", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Grignan-les-adhémar", "subarea":"Rhône méridonal", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Grignan-les-adhémar", "subarea":"Rhône méridonal", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Grignan-les-adhémar", "subarea":"Rhône méridonal", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Hermitage ou ermitage", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Hermitage ou ermitage", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Lirac", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Lirac", "subarea":"Rhône méridional", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Lirac", "subarea":"Rhône méridional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Luberon", "subarea":"Luberon", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Luberon", "subarea":"Luberon", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Luberon", "subarea":"Luberon", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Muscat de Beaumes-de-Venise", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Muscat de Beaumes-de-Venise", "subarea":"Rhône méridional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Rasteau", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Saint-joseph", "subarea":"Rhône septentrional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Saint-joseph", "subarea":"Rhône septentrional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Saint-péray", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Tavel", "subarea":"Gard", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Vacqueyras", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Vacqueyras", "subarea":"Rhône méridional", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Vacqueyras", "subarea":"Rhône méridional", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Ventoux", "color":"Red"}
-{ "name":"vallée du Rhône", "area":"Ventoux", "color":"Pink"}
-{ "name":"vallée du Rhône", "area":"Ventoux", "color":"White"}
-{ "name":"vallée du Rhône", "area":"Vinsobres", "subarea":"Rhône méridional", "color":"Red"}
-{ "name":"Vallée du Rhône", "area":"Duché-d'Uzès", "color":"Red"}
-{ "name":"Vallée du Rhône", "area":"Duché-d'Uzès", "color":"Pink"}
-{ "name":"Vallée du Rhône", "area":"Duché-d'Uzès", "color":"White"}
+{ "area":"Alsace", "name":"Alsace grand cru", "color":"White"}
+{ "area":"Alsace", "name":"Vin d'Alsace", "color":"Red"}
+{ "area":"Alsace", "name":"Alsace", "color":"Red"}
+{ "area":"Alsace", "name":"Alsace ou vin d'Alsace", "color":"Pink"}
+{ "area":"Alsace", "name":"Alsace ou vin d'Alsace", "color":"White"}
+{ "area":"Alsace", "name":"Crémant d'Alsace", "color":"Pink"}
+{ "area":"Alsace", "name":"Crémant d'Alsace", "color":"White"}
+{ "area":"Beaujolais", "name":"Beaujolais", "color":"Red"}
+{ "area":"Beaujolais", "name":"Beaujolais", "color":"Pink"}
+{ "area":"Beaujolais", "name":"Beaujolais", "color":"White"}
+{ "area":"Beaujolais", "name":"Beaujolais-villages", "color":"Red"}
+{ "area":"Beaujolais", "name":"Beaujolais-villages", "color":"Pink"}
+{ "area":"Beaujolais", "name":"Beaujolais-villages", "color":"White"}
+{ "area":"Beaujolais", "name":"Brouilly", "color":"Red"}
+{ "area":"Beaujolais", "name":"Chénas", "color":"Red"}
+{ "area":"Beaujolais", "name":"Chiroubles", "color":"Red"}
+{ "area":"Beaujolais", "name":"Côte-de-brouilly", "color":"Red"}
+{ "area":"Beaujolais", "name":"Fleurie", "color":"Red"}
+{ "area":"Beaujolais", "name":"Juliénas", "color":"Red"}
+{ "area":"Beaujolais", "name":"Juliénas", "color":"White"}
+{ "area":"Beaujolais", "name":"Morgon", "color":"Red"}
+{ "area":"Beaujolais", "name":"Moulin-à-vent", "color":"Red"}
+{ "area":"Beaujolais", "name":"Régnié", "color":"Red"}
+{ "area":"Beaujolais", "name":"Saint-amour", "color":"Red"}
+{ "area":"Bordeaux", "name":"Barsac", "subarea":"Sauternais", "color":"White"}
+{ "area":"Bordeaux", "name":"Blaye", "subarea":"Blayais et Bourgeais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bordeaux", "color":"Clairet"}
+{ "area":"Bordeaux", "name":"Bordeaux", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bordeaux", "color":"Pink"}
+{ "area":"Bordeaux", "name":"Bordeaux", "color":"White"}
+{ "area":"Bordeaux", "name":"Bordeaux supérieur", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bordeaux supérieur", "color":"White"}
+{ "area":"Bordeaux", "name":"Cadillac", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Canon-fronsac", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Cérons", "subarea":"Graves", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-blaye", "subarea":"Blayais", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-blaye", "subarea":"Bourgeais", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-Bordeaux", "subarea":"Blayais", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-Bordeaux", "subarea":"Bourgeais", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-Bordeaux", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-Bordeaux", "subarea":"Libournais", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-Bordeaux-saint-macaire", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-bourg", "subarea":"Bourgeais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bourg", "subarea":"Bourgeais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bourgeais", "subarea":"Bourgeais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Côtes-de-bourg", "subarea":"Blayais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bourg", "subarea":"Blayais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Bourgeais", "subarea":"Blayais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Côtes-de-bourg", "subarea":"Bourgeais", "color":"White"}
+{ "area":"Bordeaux", "name":"Bourg", "subarea":"Bourgeais", "color":"White"}
+{ "area":"Bordeaux", "name":"Bourgeais", "subarea":"Bourgeais", "color":"White"}
+{ "area":"Bordeaux", "name":"Côtes-de-bourg", "subarea":"Blayais", "color":"White"}
+{ "area":"Bordeaux", "name":"Bourg", "subarea":"Blayais", "color":"White"}
+{ "area":"Bordeaux", "name":"Bourgeais", "subarea":"Blayais", "color":"White"}
+{ "area":"Bordeaux", "name":"Crémant de Bordeaux", "color":"Pink"}
+{ "area":"Bordeaux", "name":"Crémant de Bordeaux", "color":"White"}
+{ "area":"Bordeaux", "name":"Entre-deux-mers", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Fronsac", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Graves", "subarea":"Graves", "color":"Red"}
+{ "area":"Bordeaux", "name":"Graves", "subarea":"Graves", "color":"White"}
+{ "area":"Bordeaux", "name":"Graves-de-vayres", "color":"Red"}
+{ "area":"Bordeaux", "name":"Graves-de-vayres", "color":"White"}
+{ "area":"Bordeaux", "name":"Graves-supérieures", "subarea":"Graves", "color":"White"}
+{ "area":"Bordeaux", "name":"Haut-médoc", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Lalande-de-pomerol", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Listrac-médoc", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Loupiac", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Lussac-saint-émilion", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Margaux", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Médoc", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Montagne-saint-émilion", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Moulis", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Moulis-en-médoc", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Pauillac", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Pessac-léognan", "subarea":"Graves", "color":"Red"}
+{ "area":"Bordeaux", "name":"Pessac-léognan", "subarea":"Graves", "color":"White"}
+{ "area":"Bordeaux", "name":"Pomerol", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Premières-côtes-de-Bordeaux", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Puisseguin-saint-émilion", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Saint-émilion", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Saint-émilion grand cru", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Saint-estèphe", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Saint-georges-saint-émilion", "subarea":"Libournais", "color":"Red"}
+{ "area":"Bordeaux", "name":"Saint-julien", "subarea":"Médoc", "color":"Red"}
+{ "area":"Bordeaux", "name":"Sainte-croix-du-mont", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Sainte-foy-Bordeaux", "subarea":"Entre-deux-Mers", "color":"Red"}
+{ "area":"Bordeaux", "name":"Sainte-foy-Bordeaux", "subarea":"Entre-deux-Mers", "color":"White"}
+{ "area":"Bordeaux", "name":"Sauternes", "subarea":"Sauternais", "color":"White"}
+{ "area":"Bourgogne", "name":"Aloxe-corton", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Aloxe-corton", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Auxey-duresses", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Auxey-duresses", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Bâtard-montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Beaune", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Beaune", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Bienvenues-bâtard-montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Blagny", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Bonnes-mares", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Bourgogne", "color":"Red"}
+{ "area":"Bourgogne", "name":"Bourgogne", "color":"Pink"}
+{ "area":"Bourgogne", "name":"Bourgogne", "color":"White"}
+{ "area":"Bourgogne", "name":"Bourgogne aligoté", "color":"White"}
+{ "area":"Bourgogne", "name":"Bourgogne mousseux", "color":"Red"}
+{ "area":"Bourgogne", "name":"Bourgogne passe-tout-grains", "color":"Red"}
+{ "area":"Bourgogne", "name":"Bourgogne passe-tout-grains", "color":"Pink"}
+{ "area":"Bourgogne", "name":"Bouzeron", "subarea":"Côte chalonnaise", "color":"White"}
+{ "area":"Bourgogne", "name":"Chablis", "subarea":"Basse-Bourgogne", "color":"White"}
+{ "area":"Bourgogne", "name":"Chablis grand cru", "subarea":"Basse-Bourgogne", "color":"White"}
+{ "area":"Bourgogne", "name":"Chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Chambertin-clos-de-bèze", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Chambolle-musigny", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Chapelle-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Charlemagne", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Charmes-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Chassagne-montrachet", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Chassagne-montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Chevalier-montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Chorey-lès-beaune", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Chorey-lès-beaune", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Clos-de-la-roche", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Clos-de-tart", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Clos-vougeot", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Clos-de-vougeot", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Clos-des-lambrays", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Clos-saint-denis", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Corton", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Corton", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Corton-charlemagne", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Côte-de-beaune", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Côte-de-beaune", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Côte-de-beaune-villages", "subarea":"côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Côte-de-nuits-villages", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Côte-de-nuits-villages", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bourgogne", "name":"Coteaux-bourguignons", "color":"Red"}
+{ "area":"Bourgogne", "name":"Coteaux-bourguignons", "color":"Pink"}
+{ "area":"Bourgogne", "name":"Coteaux-bourguignons", "color":"White"}
+{ "area":"Bourgogne", "name":"Crémant de Bourgogne", "color":"Pink"}
+{ "area":"Bourgogne", "name":"Crémant de Bourgogne", "color":"White"}
+{ "area":"Bourgogne", "name":"Criots-bâtard-montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Echezeaux", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Fixin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Fixin", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bourgogne", "name":"Gevrey-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Givry", "subarea":"côte chalonnaise", "color":"Red"}
+{ "area":"Bourgogne", "name":"Givry", "subarea":"côte chalonnaise", "color":"White"}
+{ "area":"Bourgogne", "name":"Grands-échezeaux", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Griotte-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Irancy", "subarea":"Basse-Bourgogne", "color":"Red"}
+{ "area":"Bourgogne", "name":"La-grande-rue", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"La-romanée", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"La-tâche", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Ladoix", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Ladoix", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Latricières-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Mâcon", "subarea":"Mâconnais", "color":"Red"}
+{ "area":"Bourgogne", "name":"Mâcon", "subarea":"Mâconnais", "color":"Pink"}
+{ "area":"Bourgogne", "name":"Mâcon", "subarea":"Mâconnais", "color":"White"}
+{ "area":"Bourgogne", "name":"Maranges", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Maranges", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Marsannay", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Marsannay", "subarea":"Côte de Nuits", "color":"Pink"}
+{ "area":"Bourgogne", "name":"Marsannay", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bourgogne", "name":"Mazis-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Mazoyères-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Mercurey", "subarea":"Côte chalonnaise", "color":"Red"}
+{ "area":"Bourgogne", "name":"Mercurey", "subarea":"Côte chalonnaise", "color":"White"}
+{ "area":"Bourgogne", "name":"Meursault", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Meursault", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Montagny", "subarea":"Côte chalonnaise", "color":"White"}
+{ "area":"Bourgogne", "name":"Monthélie", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Monthélie", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Morey-saint-denis", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Morey-saint-denis", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bourgogne", "name":"Musigny", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Musigny", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bourgogne", "name":"Nuits-saint-georges", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Nuits-saint-georges", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bourgogne", "name":"Pernand-vergelesses", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Pernand-vergelesses", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Petit-chablis", "subarea":"Basse-Bourgogne", "color":"White"}
+{ "area":"Bourgogne", "name":"Pommard", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Pouilly-fuissé", "subarea":"Mâconnais", "color":"White"}
+{ "area":"Bourgogne", "name":"Pouilly-loché", "subarea":"Mâconnais", "color":"White"}
+{ "area":"Bourgogne", "name":"Pouilly-vinzelles", "subarea":"Mâconnais", "color":"White"}
+{ "area":"Bourgogne", "name":"Puligny-montrachet", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Puligny-montrachet", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Richebourg", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Romanée-conti", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Romanée-saint-vivant", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Ruchottes-chambertin", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Rully", "subarea":"Côte chalonnaise", "color":"Red"}
+{ "area":"Bourgogne", "name":"Rully", "subarea":"Côte chalonnaise", "color":"White"}
+{ "area":"Bourgogne", "name":"Saint-aubin", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Saint-aubin", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Saint-bris", "subarea":"Basse-Bourgogne", "color":"White"}
+{ "area":"Bourgogne", "name":"Saint-romain", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Saint-romain", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Saint-véran", "subarea":"Mâconnais", "color":"White"}
+{ "area":"Bourgogne", "name":"Santenay", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Santenay", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Savigny-lès-beaune", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Savigny-lès-beaune", "subarea":"Côte de Beaune", "color":"White"}
+{ "area":"Bourgogne", "name":"Viré-clessé", "subarea":"Mâconnais", "color":"White"}
+{ "area":"Bourgogne", "name":"Volnay", "subarea":"Côte de Beaune", "color":"Red"}
+{ "area":"Bourgogne", "name":"Vosne-romanée", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Vougeot", "subarea":"Côte de Nuits", "color":"Red"}
+{ "area":"Bourgogne", "name":"Vougeot", "subarea":"Côte de Nuits", "color":"White"}
+{ "area":"Bugey", "name":"Bugey", "color":"Pink"}
+{ "area":"Bugey", "name":"Bugey", "color":"White"}
+{ "area":"Bugey", "name":"Roussette du Bugey", "color":"White"}
+{ "area":"Champagne", "name":"Champagne", "color":"Pink"}
+{ "area":"Champagne", "name":"Champagne", "color":"White"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Côte des Bar", "color":"Red"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Côte des Bar", "color":"Pink"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Côte des Bar", "color":"White"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Côte des Blancs", "color":"Red"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Côte des Blancs", "color":"Pink"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Côte des Blancs", "color":"White"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Montagne de Reims", "color":"Red"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Montagne de Reims", "color":"Pink"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Montagne de Reims", "color":"White"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Vallée de la Marne", "color":"Red"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Vallée de la Marne", "color":"Pink"}
+{ "area":"Champagne", "name":"Coteaux-champenois", "subarea":"Vallée de la Marne", "color":"White"}
+{ "area":"Champagne", "name":"Rosé des Riceys", "subarea":"Côte des Bars", "color":"Pink"}
+{ "area":"Corse", "name":"Ajaccio", "color":"Red"}
+{ "area":"Corse", "name":"Ajaccio", "color":"Pink"}
+{ "area":"Corse", "name":"Ajaccio", "color":"White"}
+{ "area":"Corse", "name":"Corse ou vin de Corse", "color":"Red"}
+{ "area":"Corse", "name":"Corse ou vin de Corse", "color":"Pink"}
+{ "area":"Corse", "name":"Corse ou vin de Corse", "color":"White"}
+{ "area":"Corse", "name":"Muscat du Cap-Corse", "color":"White"}
+{ "area":"Corse", "name":"Patrimonio", "color":"Red"}
+{ "area":"Corse", "name":"Patrimonio", "color":"White"}
+{ "area":"Jura", "name":"Arbois", "color":"Red"}
+{ "area":"Jura", "name":"Arbois", "color":"White"}
+{ "area":"Jura", "name":"Côtes-du-jura", "color":"Red"}
+{ "area":"Jura", "name":"Côtes-du-jura", "color":"Pink"}
+{ "area":"Jura", "name":"Côtes-du-jura", "color":"Straw"}
+{ "area":"Jura", "name":"Côtes-du-jura", "color":"White"}
+{ "area":"Jura", "name":"Côtes-du-jura", "color":"Yellow"}
+{ "area":"Jura", "name":"Crémant du Jura", "color":"White"}
+{ "area":"Jura", "name":"L'étoile", "color":"White"}
+{ "area":"Languedoc", "name":"Cabardès", "subarea":"Coteaux de l'Aude", "color":"Red"}
+{ "area":"Languedoc", "name":"Cabardès", "subarea":"Coteaux de l'Aude", "color":"Pink"}
+{ "area":"Languedoc", "name":"Clairette du Languedoc", "subarea":"Coteaux du Languedoc", "color":"White"}
+{ "area":"Languedoc", "name":"Corbières", "subarea":"Coteaux de l'Aude", "color":"Red"}
+{ "area":"Languedoc", "name":"Corbières", "subarea":"Coteaux de l'Aude", "color":"Pink"}
+{ "area":"Languedoc", "name":"Corbières", "subarea":"Coteaux de l'Aude", "color":"White"}
+{ "area":"Languedoc", "name":"Corbières-boutenac", "subarea":"Coteaux de l'Aude (Corbières)", "color":"Red"}
+{ "area":"Languedoc", "name":"Crémant de Limoux", "subarea":"Coteaux de l'Aude (Limouxin)", "color":"White"}
+{ "area":"Languedoc", "name":"Faugères", "subarea":"Coteaux du Languedoc", "color":"Red"}
+{ "area":"Languedoc", "name":"Faugères", "subarea":"Coteaux du Languedoc", "color":"Pink"}
+{ "area":"Languedoc", "name":"Faugères", "subarea":"Coteaux du Languedoc", "color":"White"}
+{ "area":"Languedoc", "name":"Fitou", "subarea":"Coteaux de l'Aude (Corbières)", "color":"Red"}
+{ "area":"Languedoc", "name":"Languedoc", "color":"Red"}
+{ "area":"Languedoc", "name":"Languedoc", "color":"Pink"}
+{ "area":"Languedoc", "name":"Languedoc", "color":"White"}
+{ "area":"Languedoc", "name":"Limoux", "subarea":"Coteaux de l'Aude", "color":"Red"}
+{ "area":"Languedoc", "name":"Limoux", "subarea":"Coteaux de l'Aude", "color":"White"}
+{ "area":"Languedoc", "name":"Malepère", "subarea":"Coteaux de l'Aude (Razès)", "color":"Red"}
+{ "area":"Languedoc", "name":"Malepère", "subarea":"Coteaux de l'Aude (Razès)", "color":"Pink"}
+{ "area":"Languedoc", "name":"Minervois", "subarea":"Coteaux de l'Aude", "color":"Red"}
+{ "area":"Languedoc", "name":"Minervois", "subarea":"Coteaux de l'Aude", "color":"Pink"}
+{ "area":"Languedoc", "name":"Minervois", "subarea":"Coteaux de l'Aude", "color":"White"}
+{ "area":"Languedoc", "name":"Minervois-la-livinière", "subarea":"Petit Causse", "color":"Red"}
+{ "area":"Languedoc", "name":"Muscat de Frontignan", "subarea":"Plaine du Languedoc", "color":"White"}
+{ "area":"Languedoc", "name":"Vin de Frontignan", "subarea":"Plaine du Languedoc", "color":"White"}
+{ "area":"Languedoc", "name":"Muscat de Lunel", "color":"White"}
+{ "area":"Languedoc", "name":"Muscat de Mireval", "subarea":"Plaine du Languedoc", "color":"White"}
+{ "area":"Languedoc", "name":"Muscat de Saint-Jean-de-Minervois", "subarea":"Minervois", "color":"White"}
+{ "area":"Languedoc", "name":"Saint-chinian", "color":"Red"}
+{ "area":"Languedoc", "name":"Saint-chinian", "color":"Pink"}
+{ "area":"Languedoc", "name":"Saint-chinian", "color":"White"}
+{ "area":"Languedoc-Roussillon", "name":"Banyuls", "subarea":"Roussillon", "color":"Pink"}
+{ "area":"Languedoc-Roussillon", "name":"Banyuls grand cru", "subarea":"Roussillon", "color":"Red"}
+{ "area":"Lorraine", "name":"Côtes-de-toul", "subarea":"Côtes de Meuse", "color":"Red"}
+{ "area":"Lorraine", "name":"Côtes-de-toul", "subarea":"Côtes de Meuse", "color":"White"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Pays messin", "color":"Red"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Pays messin", "color":"Pink"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Pays messin", "color":"White"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Val de Seille", "color":"Red"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Val de Sierck", "color":""}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Val de Seille", "color":"Pink"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Val de Sierck", "color":"Pink"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Val de Seille", "color":"White"}
+{ "area":"Lorraine", "name":"Moselle", "subarea":"Val de Sierck", "color":"White"}
+{ "area":"Lyonnais", "name":"Coteaux-du-lyonnais", "color":"Red"}
+{ "area":"Lyonnais", "name":"Coteaux-du-lyonnais", "color":"Pink"}
+{ "area":"Lyonnais", "name":"Coteaux-du-lyonnais", "color":"White"}
+{ "area":"Provence", "name":"Bandol", "color":"Red"}
+{ "area":"Provence", "name":"Bandol", "color":"Pink"}
+{ "area":"Provence", "name":"Bandol", "color":"White"}
+{ "area":"Provence", "name":"Vin de Bellet", "color":"Red"}
+{ "area":"Provence", "name":"Vin de Bellet", "color":"Pink"}
+{ "area":"Provence", "name":"Vin de Bellet", "color":"White"}
+{ "area":"Provence", "name":"Bellet", "color":"Red"}
+{ "area":"Provence", "name":"Bellet", "color":"Pink"}
+{ "area":"Provence", "name":"Bellet", "color":"White"}
+{ "area":"Provence", "name":"Cassis", "color":"Red"}
+{ "area":"Provence", "name":"Cassis", "color":"Pink"}
+{ "area":"Provence", "name":"Cassis", "color":"White"}
+{ "area":"Provence", "name":"Coteaux-d'aix-en-provence", "color":"Red"}
+{ "area":"Provence", "name":"Coteaux-d'aix-en-provence", "color":"Pink"}
+{ "area":"Provence", "name":"Coteaux-d'aix-en-provence", "color":"White"}
+{ "area":"Provence", "name":"Coteaux-varois-en-provence", "color":"White"}
+{ "area":"Provence", "name":"Côtes-de-provence", "color":"Red"}
+{ "area":"Provence", "name":"Côtes-de-provence", "color":"Pink"}
+{ "area":"Provence", "name":"Côtes-de-provence", "color":"White"}
+{ "area":"Provence", "name":"Les-baux-de-provence", "color":"Red"}
+{ "area":"Provence", "name":"Les-baux-de-provence", "color":"Pink"}
+{ "area":"Provence", "name":"Palette", "color":"Red"}
+{ "area":"Provence", "name":"Palette", "color":"Pink"}
+{ "area":"Provence", "name":"Palette", "color":"White"}
+{ "area":"Provence", "name":"Pierrevert", "subarea":"Moyenne vallée de la Durance", "color":"Red"}
+{ "area":"Provence", "name":"Pierrevert", "subarea":"Moyenne vallée de la Durance", "color":"Pink"}
+{ "area":"Provence", "name":"Pierrevert", "subarea":"Moyenne vallée de la Durance", "color":"White"}
+{ "area":"Roussillon", "name":"Collioure", "subarea":"Côte Vermeille", "color":"Red"}
+{ "area":"Roussillon", "name":"Collioure", "subarea":"Côte Vermeille", "color":"Pink"}
+{ "area":"Roussillon", "name":"Collioure", "subarea":"Côte Vermeille", "color":"White"}
+{ "area":"Roussillon", "name":"Côtes-du-roussillon", "color":"Red"}
+{ "area":"Roussillon", "name":"Côtes-du-roussillon", "color":"Pink"}
+{ "area":"Roussillon", "name":"Côtes-du-roussillon", "color":"White"}
+{ "area":"Roussillon", "name":"Côtes-du-roussillon villages", "color":"Red"}
+{ "area":"Roussillon", "name":"Maury", "subarea":"Fenouillèdes", "color":"Red"}
+{ "area":"Roussillon", "name":"Maury", "subarea":"Fenouillèdes", "color":"White"}
+{ "area":"Roussillon", "name":"Muscat de Rivesaltes", "subarea":"Aspres et Ribéral", "color":"White"}
+{ "area":"Roussillon", "name":"Muscat de Rivesaltes", "subarea":"Bas-Conflent", "color":"White"}
+{ "area":"Roussillon", "name":"Muscat de Rivesaltes", "subarea":"Fenouillèdes", "color":"White"}
+{ "area":"Roussillon", "name":"Muscat de Rivesaltes", "subarea":"Plaine du Roussillon", "color":"White"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Aspres et Ribéral", "color":"Red"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Aspres et Ribéral", "color":"White"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Bas-Conflent", "color":"Red"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Bas-Conflent", "color":"White"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Fenouillèdes", "color":"Red"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Fenouillèdes", "color":"White"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Plaine du Roussillon", "color":"Red"}
+{ "area":"Roussillon", "name":"Rivesaltes", "subarea":"Plaine du Roussillon", "color":"White"}
+{ "area":"Savoie", "name":"Roussette de Savoie", "color":"White"}
+{ "area":"Savoie", "name":"Savoie", "color":"Red"}
+{ "area":"Savoie", "name":"Savoie", "color":"Pink"}
+{ "area":"Savoie", "name":"Savoie", "color":"White"}
+{ "area":"Savoie", "name":"Vin de Savoie", "color":"Red"}
+{ "area":"Savoie", "name":"Vin de Savoie", "color":"Pink"}
+{ "area":"Savoie", "name":"Vin de Savoie", "color":"White"}
+{ "area":"Savoie et Bugey", "name":"Seyssel", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Béarn", "subarea":"Piémont pyrénéen", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Béarn", "subarea":"Piémont pyrénéen", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Béarn", "subarea":"Piémont pyrénéen", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Bergerac", "subarea":"Bergeracois", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Bergerac", "subarea":"Bergeracois", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Bergerac", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Buzet", "subarea":"Moyenne Garonne", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Cahors", "subarea":"Piémont du Massif central (Quercy)", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Côtes-de-bergerac", "subarea":"Bergeracois", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Côtes-de-bergerac", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Côtes-de-duras", "subarea":"Moyenne Garonne", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Côtes-de-duras", "subarea":"Moyenne Garonne", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Côtes-de-duras", "subarea":"Moyenne Garonne", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Côtes-de-montravel", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Côtes-du-marmandais", "subarea":"Moyenne Garonne", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Côtes-du-marmandais", "subarea":"Moyenne Garonne", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Côtes-du-marmandais", "subarea":"Moyenne Garonne", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Fronton", "subarea":"Moyenne Garonne", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Fronton", "subarea":"Moyenne Garonne", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Gaillac", "subarea":"Piémont du Massif central", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Gaillac", "subarea":"Piémont du Massif central", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Gaillac", "subarea":"Piémont du Massif central", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Gaillac-premières-côtes", "subarea":"Piémont du Massif central", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Haut-montravel", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Irouléguy", "subarea":"Pays basque", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Irouléguy", "subarea":"Pays basque", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Irouléguy", "subarea":"Pays basque", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Jurançon", "subarea":"Piémont pyrénéen", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Madiran", "subarea":"Piémont pyrénéen (Armagnac)", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Marcillac", "subarea":"Massif central méridional", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Marcillac", "subarea":"Massif central méridional", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Monbazillac", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Montravel", "subarea":"Bergeracois", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Montravel", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Pacherenc-du-vic-bilh", "subarea":"Piémont pyrénéen (Armagnac)", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Pacherenc-du-vic-bilh", "subarea":"Piémont pyrénéen (Armagnac)", "color":"Pink"}
+{ "area":"Sud-Ouest", "name":"Pacherenc-du-vic-bilh", "subarea":"Piémont pyrénéen (Armagnac)", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Pécharmant", "subarea":"Bergeracois", "color":"Red"}
+{ "area":"Sud-Ouest", "name":"Rosette", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Sud-Ouest", "name":"Saussignac", "subarea":"Bergeracois", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Anjou", "subarea":"Anjou", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Anjou", "subarea":"Anjou", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Anjou", "subarea":"Anjou", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Anjou villages", "subarea":"Anjou", "color":"Red"}
+{ "area":"Vallée de la Loire", "name":"Anjou villages brissac", "subarea":"Anjou", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Anjou-coteaux-de-la-loire", "subarea":"Anjou", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Bonnezeaux", "subarea":"Anjou", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Boudes", "subarea":"Côtes d'auvergne", "color":"Red"}
+{ "area":"Vallée de la Loire", "name":"Bourgueil", "subarea":"Touraine", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Bourgueil", "subarea":"Touraine", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Cabernet d'Anjou", "color":"Pink"}
+{ "area":"Vallée de la Loire", "name":"Cabernet de Saumur", "color":"Red"}
+{ "area":"Vallée de la Loire", "name":"Chanturgue", "subarea":"Côtes d'auvergne", "color":"Red"}
+{ "area":"Vallée de la Loire", "name":"Châteaugay", "subarea":"Côtes d'auvergne", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Châteaugay", "subarea":"Côtes d'auvergne", "color":"Pink"}
+{ "area":"Vallée de la Loire", "name":"Châteaumeillant", "color":"Red"}
+{ "area":"Vallée de la Loire", "name":"Cheverny", "subarea":"Touraine", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Cheverny", "subarea":"Touraine", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Cheverny", "subarea":"Touraine", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Chinon", "subarea":"Touraine", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Chinon", "subarea":"Touraine", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Chinon", "subarea":"Touraine", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Corent", "subarea":"Côtes d'auvergne", "color":"Pink"}
+{ "area":"Vallée de la Loire", "name":"Côte-roannaise", "subarea":"Roannais", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Côte-roannaise", "subarea":"Roannais", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Coteaux-de-l'aubance", "subarea":"Anjou", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Coteaux-de-saumur", "subarea":"Anjou (Saumurois)", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Coteaux-du-giennois", "subarea":"Centre", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Coteaux-du-giennois", "subarea":"Centre", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Coteaux-du-giennois", "subarea":"Centre", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Coteaux-du-layon", "subarea":"Anjou", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Coteaux-du-loir", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Coteaux-du-loir", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Coteaux-du-loir", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Coteaux-du-vendômois", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Coteaux-du-vendômois", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Côtes-du-forez", "subarea":"Forez", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Côtes-du-forez", "subarea":"Forez", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Cour-cheverny", "subarea":"Touraine", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Crémant de Loire", "subarea":"Anjou", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Crémant de Loire", "subarea":"Anjou", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Crémant de Loire", "subarea":"Touraine", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Crémant de Loire", "subarea":"Touraine", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Fiefs-vendéens", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Fiefs-vendéens", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Fiefs-vendéens", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Haut-poitou", "subarea":"Poitou", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Haut-poitou", "subarea":"Poitou", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Haut-poitou", "subarea":"Poitou", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Jasnières", "subarea":"Touraine", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Madargue", "subarea":"Côtes d'auvergne", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Madargue", "subarea":"Côtes d'auvergne", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Madargue", "subarea":"Côtes d'auvergne", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Menetou-salon", "subarea":"Berry", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Menetou-salon", "subarea":"Berry", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Menetou-salon", "subarea":"Berry", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Montlouis-sur-loire", "subarea":"Touraine", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Muscadet", "subarea":"Vignoble nantais", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Muscadet-coteaux-de-la-loire", "subarea":"Vignoble nantais", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Muscadet-côtes-de-grandlieu", "subarea":"Vignoble nantais", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Muscadet-sèvre-et-maine", "subarea":"Vignoble nantais", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Orléans", "subarea":"Orléanais", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Orléans", "subarea":"Orléanais", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Orléans", "subarea":"Orléanais", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Orléans-cléry", "subarea":"Orléanais", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Pouilly-fumé", "subarea":"Nivernais", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Blanc-fumé de Pouilly", "subarea":"Nivernais", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Pouilly-sur-loire", "subarea":"Nivernais", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Quarts-de-chaume", "subarea":"Anjou", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Quincy", "subarea":"Berry", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Reuilly", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Reuilly", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Reuilly", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Rosé d'Anjou", "subarea":"Anjou", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Rosé de Loire", "subarea":"Anjou", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Rosé de Loire", "subarea":"Touraine", "color":"Pink"}
+{ "area":"Vallée de la Loire", "name":"Saint-nicolas-de-bourgueil", "subarea":"Touraine", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Saint-nicolas-de-bourgueil", "subarea":"Touraine", "color":"Pink"}
+{ "area":"Vallée de la Loire", "name":"Saint-pourçain", "subarea":"Bourbonnais", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Saint-pourçain", "subarea":"Bourbonnais", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Saint-pourçain", "subarea":"Bourbonnais", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Sancerre", "subarea":"Berry", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Sancerre", "subarea":"Berry", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Sancerre", "subarea":"Berry", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Saumur", "subarea":"Anjou", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Saumur-champigny", "subarea":"Anjou", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Savennières", "subarea":"Anjou", "color":"White"}
+{ "area":"Vallée de la Loire", "name":"Touraine", "subarea":"Touraine", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Touraine", "subarea":"Touraine", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Touraine", "subarea":"Touraine", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Touraine-noble-joué", "subarea":"Touraine", "color":"Pink"}
+{ "area":"Vallée de la Loire", "name":"Valençay", "color":"Red"}
+{ "area":"vallée de la Loire", "name":"Valençay", "color":"Pink"}
+{ "area":"vallée de la Loire", "name":"Valençay", "color":"White"}
+{ "area":"vallée de la Loire", "name":"Vouvray", "subarea":"Touraine", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Beaumes-de-venise", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Château-grillet", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Châteauneuf-du-pape", "subarea":"Rhône méridional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Châtillon-en-diois", "subarea":"Diois (vallée de la Drôme)", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Châtillon-en-diois", "subarea":"Diois (vallée de la Drôme)", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Châtillon-en-diois", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Clairette de Bellegarde", "subarea":"Gard", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Clairette de Die", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Condrieu", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Cornas", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Costières-de-nîmes", "subarea":"Gard", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Costières-de-nîmes", "subarea":"Gard", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Costières-de-nîmes", "subarea":"Gard", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Côte-rôtie", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Coteaux-de-die", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône", "subarea":"Rhône méridional", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône", "subarea":"Rhône méridional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône", "subarea":"Rhône septentrional", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône villages", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône villages", "subarea":"Rhône méridional", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-rhône villages", "subarea":"Rhône méridional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-vivarais", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-vivarais", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Côtes-du-vivarais", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Crémant de Die", "subarea":"Diois (vallée de la Drôme)", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Crozes-hermitage", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Crozes-ermitage", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Crozes-hermitage", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Crozes-ermitage", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Gigondas", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Gigondas", "subarea":"Rhône méridional", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Grignan-les-adhémar", "subarea":"Rhône méridonal", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Grignan-les-adhémar", "subarea":"Rhône méridonal", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Grignan-les-adhémar", "subarea":"Rhône méridonal", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Hermitage ou ermitage", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Hermitage ou ermitage", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Lirac", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Lirac", "subarea":"Rhône méridional", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Lirac", "subarea":"Rhône méridional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Luberon", "subarea":"Luberon", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Luberon", "subarea":"Luberon", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Luberon", "subarea":"Luberon", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Muscat de Beaumes-de-Venise", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Muscat de Beaumes-de-Venise", "subarea":"Rhône méridional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Rasteau", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Saint-joseph", "subarea":"Rhône septentrional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Saint-joseph", "subarea":"Rhône septentrional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Saint-péray", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Tavel", "subarea":"Gard", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Vacqueyras", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Vacqueyras", "subarea":"Rhône méridional", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Vacqueyras", "subarea":"Rhône méridional", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Ventoux", "color":"Red"}
+{ "area":"vallée du Rhône", "name":"Ventoux", "color":"Pink"}
+{ "area":"vallée du Rhône", "name":"Ventoux", "color":"White"}
+{ "area":"vallée du Rhône", "name":"Vinsobres", "subarea":"Rhône méridional", "color":"Red"}
+{ "area":"Vallée du Rhône", "name":"Duché-d'Uzès", "color":"Red"}
+{ "area":"Vallée du Rhône", "name":"Duché-d'Uzès", "color":"Pink"}
+{ "area":"Vallée du Rhône", "name":"Duché-d'Uzès", "color":"White"}
