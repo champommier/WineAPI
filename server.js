@@ -16,7 +16,6 @@ app.use(express.static('public'));
 
 // Check header
 app.use(function (req, res, next) {
-    console.log(req.path);
     if(req.get('X-Mashape-Proxy-Secret') == MASHAPE_SECRET) {
         next();
     } else {
