@@ -16,14 +16,11 @@ app.use(express.static('public'));
 
 // Check header
 app.use(function (req, res, next) {
-    if(req.get('X-Mashape-Proxy-Secret') != MASHAPE_SECRET)
-    {
-        res.status(403).send('Permission denied');
-        return;
-    }
-    else
-    {
+    console.log(req.path);
+    if(req.get('X-Mashape-Proxy-Secret') == MASHAPE_SECRET) {
         next();
+    } else {
+        return res.redirect(403,"/public/blocked.html")
     }
 });
 

@@ -1,7 +1,4 @@
-// start Mongo
-~/Dévelopement/MongoDB/bin/mongod -dbpath ~/Dévelopement/MongoDB/data &
+#! sh
 
-//start server
-cd ~/Dévelopement/WineAPI
-npm start &
-// or nodemon server.js &
+mongod --dbpath /media/PIDisk/MongoData &
+node /home/pi/Server/server &
