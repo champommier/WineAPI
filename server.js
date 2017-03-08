@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
     if(req.get('X-Mashape-Proxy-Secret') == MASHAPE_SECRET) {
         next();
     } else {
-        return res.redirect(403,"/public/blocked.html")
+        return res.sendFile("http://raspberrypi:1971/blocked.html")
     }
 });
 
