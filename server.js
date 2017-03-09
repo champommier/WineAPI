@@ -16,10 +16,12 @@ app.use(express.static('public'));
 
 // Check header
 app.use(function (req, res, next) {
-    if(req.get('X-Mashape-Proxy-Secret') == MASHAPE_SECRET) {
+    console.log(req.get('X-Mashape-Proxy-Secret'));
+    if(req.get('X-Mashape-Proxy-Secret') != MASHAPE_SECRET) {
+        next(new Error("Permission denied"));
+        return;
+    } else{
         next();
-    } else {
-        return res.sendFile("http://raspberrypi:1971/blocked.html")
     }
 });
 
