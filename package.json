@@ -1,26 +1,25 @@
 {
-  "name": "wineapi",
+  "name": "WineAPI",
   "version": "1.0.0",
-  "description": "Wine collection API",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "WineAPI"
+    "url": "git+https://github.com/champommier/WineAPI.git"
   },
-  "keywords": [
-    "API",
-    "REST",
-    "Wine"
-  ],
-  "author": "E. Champommier",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/champommier/WineAPI/issues"
+  },
+  "homepage": "https://github.com/champommier/WineAPI#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongoose": "^4.5.3",
-    "node-restful": "^0.2.5"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.0"
   }
 }
