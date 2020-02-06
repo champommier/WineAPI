@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "6270563c-8429-1f3d-cba4-ac932be8f3c9",
+		"name": "Wine API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "wines",
+			"item": [
+				{
+					"name": "Create one",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1f5acac5-0fb7-4ccb-9530-d7a7c881926c",
+								"exec": [
+									"pm.test(\"Status OK\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"const body = pm.response.json();",
+									"pm.test(\"Body OK\", function () {",
+									"    pm.expect(Array.isArray(pm.response));",
+									"    pm.expect(body).to.have.property(\"country\",\"France\");",
+									"    pm.expect(body).to.have.property(\"area\",\"Bourgogne\");",
+									"    pm.expect(body).to.have.property(\"name\",\"Chablis\");",
+									"    pm.expect(body).to.have.property(\"color\",\"white\");",
+									"});",
+									"",
+									"",
+									"pm.globals.set(\"wineId\", body._id);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "country",
+									"value": "France",
+									"type": "text"
+								},
+								{
+									"key": "area",
+									"value": "Bourgogne",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Chablis",
+									"type": "text"
+								},
+								{
+									"key": "color",
+									"value": "white",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:9090/wines/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"wines",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1f5acac5-0fb7-4ccb-9530-d7a7c881926c",
+								"exec": [
+									"pm.test(\"Status OK\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Body OK\", function () {",
+									"    pm.expect(Array.isArray(pm.response));",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "c6d118fd-8606-4bb5-8d67-b42bd0ab707f",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:9090/wines/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"wines",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "1f5acac5-0fb7-4ccb-9530-d7a7c881926c",
+								"exec": [
+									"pm.test(\"Status OK\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"wineId = pm.globals.get(\"wineId\");",
+									"",
+									"pm.sendRequest({",
+									"    url: 'http://localhost:9090/wines/' + wineId,",
+									"    method: 'GET'",
+									"    }, function (err, res) {",
+									"        const body = res.json();",
+									"        pm.test(\"Body OK\", function () {",
+									"            pm.expect(Array.isArray(pm.response));",
+									"            pm.expect(body).to.have.property(\"country\",\"France\");",
+									"            pm.expect(body).to.have.property(\"area\",\"Bourgogne\");",
+									"            pm.expect(body).to.have.property(\"name\",\"Chablis\");",
+									"            pm.expect(body).to.have.property(\"color\",\"white\");",
+									"        });",
+									"",
+									"    });",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "1f511bbe-a4b1-4360-a55a-1e6999c69c76",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:9090/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								""
+							]
+						},
+						"description": "ID is a const"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete wine",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b91bc511-dd35-4e11-9c53-060b29b4b7cc",
+								"exec": [
+									"const body = pm.response.json();",
+									"pm.test(\"Status OK\", function () {",
+									"    pm.expect(body).to.have.property(\"message\",\"Server OK\");",
+									"});",
+									"",
+									"wineId = pm.globals.get(\"wineId\");",
+									"pm.sendRequest({",
+									"    url: 'http://localhost:9090/wines/' + wineId,",
+									"    method: 'DELETE'",
+									"    }, function (err, res) {",
+									"        pm.test(\"Body OK\", function () {",
+									"            pm.response.to.have.status(200);",
+									"            const body = res.json();",
+									"            pm.expect(body).to.have.property(\"message\",\"Wine deleted successfully!\");",
+									"        });",
+									"    });",
+									"",
+									"pm.sendRequest({",
+									"    url: 'http://localhost:9090/wines/',",
+									"    method: 'GET'",
+									"    }, function (err, res) {",
+									"            pm.expect(Array.isArray(pm.response));",
+									"            tests[\"empty database\"] = pm.response.length === 0;",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "health check",
+			"item": [
+				{
+					"name": "Server ping",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "33e53e5d-b51f-4dce-869c-f05c73793559",
+								"exec": [
+									"pm.test(\"Status OK\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"const body = pm.response.json();",
+									"pm.test(\"Body OK\", function () {",
+									"pm.expect(body).to.have.property(\"message\",\"Server OK\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090"
+						},
+						"description": "Server ping"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
