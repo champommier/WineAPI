@@ -1,3 +1,3 @@
 module.exports = {
-    url: 'mongodb://localhost:30112/wine-api-db'
+    url: process.env.DB_URL
 }

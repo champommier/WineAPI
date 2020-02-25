@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 
 require('./routes/route.wine')(app);
 
-var port = process.env.PORT || 9090;
+var port = process.env.PORT;
 app.listen(port, function () {
     console.log("Running Wine API on port " + port);
 });
