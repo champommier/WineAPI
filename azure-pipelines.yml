@@ -1,11 +1,3 @@
-# Docker
-- task: KubernetesManifest@0
-  inputs:
-    action: 'deploy'
-    kubernetesServiceConnection: 'Kubernetes cluster-default-1583013000735'
-    namespace: 'default'
-    strategy: 'canary'
-    percentage: '50'
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
