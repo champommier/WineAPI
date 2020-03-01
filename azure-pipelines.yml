@@ -1,5 +1,6 @@
 - task: Docker@2
-  displayName: Build image
   inputs:
-    command: build
+    containerRegistry: 'wineapi'
+    repository: 'champommier'
+    command: 'build'
     Dockerfile: '**/Dockerfile'
