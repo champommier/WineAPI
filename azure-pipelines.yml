@@ -1,4 +1,5 @@
 - task: Docker@2
+  displayName: Build image
   inputs:
-    command: 'buildAndPush'
+    command: build
     Dockerfile: '**/Dockerfile'
