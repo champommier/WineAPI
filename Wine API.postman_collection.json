@@ -73,12 +73,12 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:9090/wines/",
+							"raw": "http://localhost:{{port}}/wines/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "9090",
+							"port": "{{port}}",
 							"path": [
 								"wines",
 								""
@@ -136,12 +136,12 @@
 							"urlencoded": []
 						},
 						"url": {
-							"raw": "http://localhost:9090/wines/",
+							"raw": "http://localhost:{{port}}/wines/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "9090",
+							"port": "{{port}}",
 							"path": [
 								"wines",
 								""
@@ -163,9 +163,9 @@
 									"});",
 									"",
 									"wineId = pm.globals.get(\"wineId\");",
-									"",
+									"port = pm.environment.get(\"port\");",
 									"pm.sendRequest({",
-									"    url: 'http://localhost:9090/wines/' + wineId,",
+									"    url: 'http://localhost:' + port + '/wines/' + wineId,",
 									"    method: 'GET'",
 									"    }, function (err, res) {",
 									"        const body = res.json();",
@@ -213,12 +213,12 @@
 							"urlencoded": []
 						},
 						"url": {
-							"raw": "http://localhost:9090/",
+							"raw": "http://localhost:{{port}}/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "9090",
+							"port": "{{port}}",
 							"path": [
 								""
 							]
@@ -241,8 +241,9 @@
 									"});",
 									"",
 									"wineId = pm.globals.get(\"wineId\");",
+									"port = pm.environment.get(\"port\");",
 									"pm.sendRequest({",
-									"    url: 'http://localhost:9090/wines/' + wineId,",
+									"    url: 'http://localhost:' + port + '/wines/' + wineId,",
 									"    method: 'DELETE'",
 									"    }, function (err, res) {",
 									"        pm.test(\"Body OK\", function () {",
@@ -253,7 +254,7 @@
 									"    });",
 									"",
 									"pm.sendRequest({",
-									"    url: 'http://localhost:9090/wines/',",
+									"    url: 'http://localhost:' + port + '/wines/',",
 									"    method: 'GET'",
 									"    }, function (err, res) {",
 									"            pm.expect(Array.isArray(pm.response));",
@@ -268,12 +269,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090/",
+							"raw": "http://localhost:{{port}}/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "9090",
+							"port": "{{port}}",
 							"path": [
 								""
 							]
@@ -312,12 +313,12 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:9090",
+							"raw": "http://localhost:{{port}}",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "9090"
+							"port": "{{port}}"
 						},
 						"description": "Server ping"
 					},
