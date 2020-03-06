@@ -4,7 +4,7 @@
 	"values": [
 		{
 			"key": "port",
-			"value": "32070",
+			"value": "32700",
 			"enabled": true
 		}
 	],
