@@ -30,5 +30,6 @@ require('./routes/route.wine')(app);
 
 var port = process.env.PORT;
 app.listen(port, function () {
+    console.log(process.env.WELCOME_MSG);
     console.log("Running Wine API on " + port);
 });
