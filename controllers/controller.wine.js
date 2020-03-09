@@ -31,7 +31,6 @@ exports.create = (req, res) => {
 
 // Retrieve and return all wines from the database.
 exports.findAll = (req, res) => {
-    console.log("findAll");
     wineModel.find()
         .then(wines => {
             res.send(wines);
