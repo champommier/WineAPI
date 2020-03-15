@@ -1,9 +1,8 @@
 {
     "name": "database",
     "connector": "mongodb",
-    "url": "mongodb://localhost:30388/wines",
     "host": "localhost",
-    "port": 30388,
+    "port": "30388",
     "user": "",
     "password": "",
     "database": "wines",
