@@ -18,13 +18,6 @@ export class WineapiLoopbackApplication extends BootMixin(
   constructor(options: ApplicationConfig = {}) {
     super(options);
 
-    const db_port = process.env.MONGO_PORT || 27017;
-    this.bind('datasources.config.db').to({
-      port: db_port,
-    });
-
-    this.bind('datasource.DatabaseDataSource').toClass(DatabaseDataSource);
-
     // Set up the custom sequence
     this.sequence(MySequence);
 
