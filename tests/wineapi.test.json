@@ -26,11 +26,11 @@
 									"    pm.expect(body).to.have.property(\"country\",\"France\");",
 									"    pm.expect(body).to.have.property(\"area\",\"Bourgogne\");",
 									"    pm.expect(body).to.have.property(\"name\",\"Chablis\");",
-									"    pm.expect(body).to.have.property(\"color\",\"white\");",
+									"    pm.expect(body).to.have.property(\"color\",\"Blanc\");",
 									"});",
 									"",
 									"",
-									"pm.globals.set(\"wineId\", body._id);",
+									"pm.globals.set(\"wineId\", body.identifier);",
 									""
 								],
 								"type": "text/javascript"
@@ -42,46 +42,28 @@
 						"header": [
 							{
 								"key": "Content-Type",
-								"name": "Content-Type",
-								"type": "text",
-								"value": "application/x-www-form-urlencoded"
+								"value": "application/json",
+								"type": "text"
 							}
 						],
 						"body": {
-							"mode": "urlencoded",
-							"urlencoded": [
-								{
-									"key": "country",
-									"value": "France",
-									"type": "text"
-								},
-								{
-									"key": "area",
-									"value": "Bourgogne",
-									"type": "text"
-								},
-								{
-									"key": "name",
-									"value": "Chablis",
-									"type": "text"
-								},
-								{
-									"key": "color",
-									"value": "white",
-									"type": "text"
+							"mode": "raw",
+							"raw": "{\n\t\"country\" : \"France\",\n\t\"area\" : \"Bourgogne\",\n\t\"name\" : \"Chablis\",\n\t\"color\": \"Blanc\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
 								}
-							]
+							}
 						},
 						"url": {
-							"raw": "http://localhost:{{port}}/wines/",
+							"raw": "http://localhost:{{port}}/wines",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "{{port}}",
 							"path": [
-								"wines",
-								""
+								"wines"
 							]
 						}
 					},
@@ -158,28 +140,15 @@
 							"script": {
 								"id": "1f5acac5-0fb7-4ccb-9530-d7a7c881926c",
 								"exec": [
-									"pm.test(\"Status OK\", function () {",
+									"pm.test(\"Result OK\", function () {",
 									"    pm.response.to.have.status(200);",
-									"});",
-									"",
-									"wineId = pm.globals.get(\"wineId\");",
-									"port = pm.environment.get(\"port\");",
-									"pm.sendRequest({",
-									"    url: 'http://localhost:' + port + '/wines/' + wineId,",
-									"    method: 'GET'",
-									"    }, function (err, res) {",
-									"        const body = res.json();",
-									"        pm.test(\"Body OK\", function () {",
-									"            pm.expect(Array.isArray(pm.response));",
-									"            pm.expect(body).to.have.property(\"country\",\"France\");",
-									"            pm.expect(body).to.have.property(\"area\",\"Bourgogne\");",
-									"            pm.expect(body).to.have.property(\"name\",\"Chablis\");",
-									"            pm.expect(body).to.have.property(\"color\",\"white\");",
-									"        });",
-									"",
-									"    });",
-									"",
-									""
+									"    pm.expect(Array.isArray(pm.response));",
+									"    body = pm.response.json();",
+									"    pm.expect(body).to.have.property(\"country\",\"France\");",
+									"    pm.expect(body).to.have.property(\"area\",\"Bourgogne\");",
+									"    pm.expect(body).to.have.property(\"name\",\"Chablis\");",
+									"    pm.expect(body).to.have.property(\"color\",\"Blanc\");",
+									"});"
 								],
 								"type": "text/javascript"
 							}
@@ -205,7 +174,8 @@
 								"key": "Content-Type",
 								"name": "Content-Type",
 								"value": "application/x-www-form-urlencoded",
-								"type": "text"
+								"type": "text",
+								"disabled": true
 							}
 						],
 						"body": {
@@ -213,14 +183,15 @@
 							"urlencoded": []
 						},
 						"url": {
-							"raw": "http://localhost:{{port}}/",
+							"raw": "http://localhost:{{port}}/wines/{{wineId}}",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "{{port}}",
 							"path": [
-								""
+								"wines",
+								"{{wineId}}"
 							]
 						},
 						"description": "ID is a const"
@@ -235,48 +206,31 @@
 							"script": {
 								"id": "b91bc511-dd35-4e11-9c53-060b29b4b7cc",
 								"exec": [
-									"const body = pm.response.json();",
-									"pm.test(\"Status OK\", function () {",
-									"    pm.expect(body).to.have.property(\"message\",\"Server OK\");",
-									"});",
 									"",
-									"wineId = pm.globals.get(\"wineId\");",
-									"port = pm.environment.get(\"port\");",
-									"pm.sendRequest({",
-									"    url: 'http://localhost:' + port + '/wines/' + wineId,",
-									"    method: 'DELETE'",
-									"    }, function (err, res) {",
-									"        pm.test(\"Body OK\", function () {",
-									"            pm.response.to.have.status(200);",
-									"            const body = res.json();",
-									"            pm.expect(body).to.have.property(\"message\",\"Wine deleted successfully!\");",
-									"        });",
-									"    });",
-									"",
-									"pm.sendRequest({",
-									"    url: 'http://localhost:' + port + '/wines/',",
-									"    method: 'GET'",
-									"    }, function (err, res) {",
-									"            pm.expect(Array.isArray(pm.response));",
-									"            tests[\"empty database\"] = pm.response.length === 0;",
-									"});"
+									"pm.test(\"Result OK\", function () {",
+									"        pm.response.to.have.status(204);",
+									"        pm.response.responseSize = 0;",
+									"    }",
+									");",
+									""
 								],
 								"type": "text/javascript"
 							}
 						}
 					],
 					"request": {
-						"method": "GET",
+						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:{{port}}/",
+							"raw": "http://localhost:{{port}}/wines/{{wineId}}",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "{{port}}",
 							"path": [
-								""
+								"wines",
+								"{{wineId}}"
 							]
 						}
 					},
@@ -302,7 +256,7 @@
 									"",
 									"const body = pm.response.json();",
 									"pm.test(\"Body OK\", function () {",
-									"pm.expect(body).to.have.property(\"message\",\"Server OK\");",
+									"pm.expect(body).to.have.property(\"greeting\",\"Hello from LoopBack\");",
 									"});"
 								],
 								"type": "text/javascript"
@@ -313,12 +267,15 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:{{port}}",
+							"raw": "http://localhost:{{port}}/ping",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "{{port}}"
+							"port": "{{port}}",
+							"path": [
+								"ping"
+							]
 						},
 						"description": "Server ping"
 					},
