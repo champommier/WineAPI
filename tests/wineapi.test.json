@@ -16,12 +16,12 @@
 							"script": {
 								"id": "1f5acac5-0fb7-4ccb-9530-d7a7c881926c",
 								"exec": [
+									"/*",
 									"pm.test(\"Status OK\", function () {",
 									"    pm.response.to.have.status(200);",
 									"});",
 									"",
 									"const body = pm.response.json();",
-									"/*",
 									"pm.test(\"Body OK\", function () {",
 									"    pm.expect(Array.isArray(pm.response));",
 									"    pm.expect(body).to.have.property(\"country\",\"France\");",
@@ -29,10 +29,9 @@
 									"    pm.expect(body).to.have.property(\"name\",\"Chablis\");",
 									"    pm.expect(body).to.have.property(\"color\",\"Blanc\");",
 									"});",
-									"*/",
 									"",
 									"pm.globals.set(\"wineId\", body.identifier);",
-									""
+									"*/"
 								],
 								"type": "text/javascript"
 							}
