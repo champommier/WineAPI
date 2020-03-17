@@ -20,6 +20,7 @@
 									"    pm.response.to.have.status(200);",
 									"});",
 									"",
+									"/*",
 									"const body = pm.response.json();",
 									"pm.test(\"Body OK\", function () {",
 									"    pm.expect(Array.isArray(pm.response));",
@@ -28,7 +29,7 @@
 									"    pm.expect(body).to.have.property(\"name\",\"Chablis\");",
 									"    pm.expect(body).to.have.property(\"color\",\"Blanc\");",
 									"});",
-									"",
+									"*/",
 									"",
 									"pm.globals.set(\"wineId\", body.identifier);",
 									""
