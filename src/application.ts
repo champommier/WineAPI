@@ -19,13 +19,12 @@ export class WineapiLoopbackApplication extends BootMixin(
     super(options);
 
     // Set up mongo configuration
-    console.log('**************' + process.env.MONGO_HOST + ':' + process.env.MONGO_PORT + '***********');
     const db_host = process.env.MONGO_HOST || 'localhost';
     const db_port = process.env.MONGO_PORT || 27017;
     const db_user = process.env.MONGO_USERNAME || '';
     const db_pass = process.env.MONGO_PASSWORD || '';
     const database = process.env.MONGO_DB || 'wines';
-    this.bind('datasources.config.db').to({
+    this.bind('datasources.config.database').to({
       name: 'db',
       connector: 'mongodb',
       host: db_host,
@@ -36,7 +35,7 @@ export class WineapiLoopbackApplication extends BootMixin(
       useNewUrlParser: true,
     });
     this.bind('datasources.db').toClass(DatabaseDataSource);
-
+    
     // Set up the custom sequence
     this.sequence(MySequence);
 

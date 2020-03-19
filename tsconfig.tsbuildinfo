@@ -1294,7 +1294,7 @@
         "signature": "7c6a79bd34402d1f00e5978b1888fd34a3487dffdc696d756c1f1ce61e49c1dc"
       },
       "./src/application.ts": {
-        "version": "a6dc51ac9042da6ddd676a40dec87b67e7045461c381c910259f79336a81067b",
+        "version": "5a5793832a9670cca0b9e6f1bffd77c1a571a25deb72a7dc199c6e9f25392f1a",
         "signature": "4d7d65afb04bc44f44f07863ad98fcab3be53ab8d78978fa4a009fdd0aa8a1cb"
       },
       "./src/index.ts": {
