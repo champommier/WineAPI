@@ -14,7 +14,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "1f5acac5-0fb7-4ccb-9530-d7a7c881926c",
+								"id": "65fa277b-3c2e-458b-a23b-38c9fd9b10d4",
 								"exec": [
 									"pm.test(\"Status OK\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -46,7 +46,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"country\" : \"France\",\n\t\"area\" : \"Bourgogne\",\n\t\"name\" : \"Chablis\",\n\t\"color\": \"Blanc\"\n}",
+							"raw": "{\n    \"country\": \"France\",\n    \"area\": \"Bourgogne\",\n    \"name\": \"Chablis\",\n    \"color\": \"Blanc\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"

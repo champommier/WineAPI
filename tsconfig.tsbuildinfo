@@ -1282,7 +1282,7 @@
         "signature": "12adc5a23f10b90be8af6e46a970bdbd4887160e9cd9ca73b877511d2dfcf7c5"
       },
       "./src/datasources/database.datasource.config.json": {
-        "version": "fc735c9a086d460a6558afbc469fa2aa00a52578936bd6c5350539125b7354bc",
+        "version": "943b85c728bc5521ffff5cc250be1d2a603b5376de3a481d316dc9f276772c0e",
         "signature": "530694f166770d40d70d11a79e1c013c82d5fcffde35ad01104fa77eeead84b3"
       },
       "./src/datasources/database.datasource.ts": {
@@ -1294,7 +1294,7 @@
         "signature": "7c6a79bd34402d1f00e5978b1888fd34a3487dffdc696d756c1f1ce61e49c1dc"
       },
       "./src/application.ts": {
-        "version": "e5faa9998393cc24abf634443432c2d1f8d80426e243377c5d1530de65674eed",
+        "version": "c316e27b741a22900176575f9c06192d137b3e721dac1ae4d312b363e804b689",
         "signature": "4d7d65afb04bc44f44f07863ad98fcab3be53ab8d78978fa4a009fdd0aa8a1cb"
       },
       "./src/index.ts": {
@@ -6634,9 +6634,9 @@
       "./node_modules/@loopback/rest-explorer/dist/index.d.ts",
       "./node_modules/@loopback/rest-explorer/index.d.ts",
       "./src/sequence.ts",
-      "./src/datasources/database.datasource.config.json",
       "./src/datasources/database.datasource.ts",
       "./src/datasources/index.ts",
+      "./src/application.ts",
       "./src/index.ts",
       "./node_modules/@types/cookiejar/index.d.ts",
       "./node_modules/@types/superagent/index.d.ts",
@@ -6681,7 +6681,7 @@
       "./node_modules/@types/mocha/index.d.ts",
       "./node_modules/@types/on-finished/index.d.ts",
       "./node_modules/@types/type-is/index.d.ts",
-      "./src/application.ts"
+      "./src/datasources/database.datasource.config.json"
     ]
   },
   "version": "3.8.3"
