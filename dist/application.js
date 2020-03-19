@@ -21,7 +21,6 @@ class WineapiLoopbackApplication extends boot_1.BootMixin(service_proxy_1.Servic
         this.bind('datasources.config.db').to({
             name: 'db',
             connector: 'mongodb',
-            url: '',
             host: db_host,
             port: db_port,
             user: db_user,

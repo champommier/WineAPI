@@ -1282,8 +1282,8 @@
         "signature": "12adc5a23f10b90be8af6e46a970bdbd4887160e9cd9ca73b877511d2dfcf7c5"
       },
       "./src/datasources/database.datasource.config.json": {
-        "version": "943b85c728bc5521ffff5cc250be1d2a603b5376de3a481d316dc9f276772c0e",
-        "signature": "530694f166770d40d70d11a79e1c013c82d5fcffde35ad01104fa77eeead84b3"
+        "version": "c4fc3f4c28ffdb792006523101fabda7f62c4d9eb1a6c078aa5b3c6191dbf315",
+        "signature": "f624addc1fdefa858fdad4c48279ddb92722b598687a3e1b98dff74e4407047d"
       },
       "./src/datasources/database.datasource.ts": {
         "version": "9260b6c3077555a302ad840e254e2c0ce1bcad5cbb5b775e1c730c207a51e8d9",
@@ -1294,7 +1294,7 @@
         "signature": "7c6a79bd34402d1f00e5978b1888fd34a3487dffdc696d756c1f1ce61e49c1dc"
       },
       "./src/application.ts": {
-        "version": "c316e27b741a22900176575f9c06192d137b3e721dac1ae4d312b363e804b689",
+        "version": "a6dc51ac9042da6ddd676a40dec87b67e7045461c381c910259f79336a81067b",
         "signature": "4d7d65afb04bc44f44f07863ad98fcab3be53ab8d78978fa4a009fdd0aa8a1cb"
       },
       "./src/index.ts": {
@@ -6634,9 +6634,9 @@
       "./node_modules/@loopback/rest-explorer/dist/index.d.ts",
       "./node_modules/@loopback/rest-explorer/index.d.ts",
       "./src/sequence.ts",
+      "./src/datasources/database.datasource.config.json",
       "./src/datasources/database.datasource.ts",
       "./src/datasources/index.ts",
-      "./src/application.ts",
       "./src/index.ts",
       "./node_modules/@types/cookiejar/index.d.ts",
       "./node_modules/@types/superagent/index.d.ts",
@@ -6681,7 +6681,7 @@
       "./node_modules/@types/mocha/index.d.ts",
       "./node_modules/@types/on-finished/index.d.ts",
       "./node_modules/@types/type-is/index.d.ts",
-      "./src/datasources/database.datasource.config.json"
+      "./src/application.ts"
     ]
   },
   "version": "3.8.3"

@@ -19,6 +19,7 @@ export class WineapiLoopbackApplication extends BootMixin(
     super(options);
 
     // Set up mongo configuration
+    console.log('**************' + process.env.MONGO_HOST + ':' + process.env.MONGO_PORT + '***********');
     const db_host = process.env.MONGO_HOST || 'localhost';
     const db_port = process.env.MONGO_PORT || 27017;
     const db_user = process.env.MONGO_USERNAME || '';
@@ -27,7 +28,6 @@ export class WineapiLoopbackApplication extends BootMixin(
     this.bind('datasources.config.db').to({
       name: 'db',
       connector: 'mongodb',
-      url: '',
       host: db_host,
       port: db_port,
       user: db_user,
