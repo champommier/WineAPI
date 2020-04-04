@@ -12,3 +12,4 @@ lancement du dashboard Istio (kiali)
     /Users/emmanuelchampommier/Documents/Développement/istio-1.5.1/bin/istioctl dashboard kiali
 puis url:
     http://localhost:20001
+    
