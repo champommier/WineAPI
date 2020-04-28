@@ -12,6 +12,7 @@ export async function main(options: ApplicationConfig = {}) {
   
   console.log(`Server is running at ${url}`);
   console.log(`Try ${url}/ping to check`);
+  console.log('test');
 
   return app;
 }
